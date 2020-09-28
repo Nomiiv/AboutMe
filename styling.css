@@ -21,7 +21,7 @@ nav li a {
   text-decoration: none;
   color: white;
   padding: 16px;
-  transition: all 0.3s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 nav li a:hover {
@@ -40,18 +40,19 @@ nav li a:hover {
 .textbox {
   margin-right: 200px;
   margin-left: 200px;
+  color: #eeeeeecb;
 }
 #jag-är-title {
   display: flex;
   justify-content: center;
   font-size: 30px;
-  color: #ffffff;
+  color: #051318;
 }
 #jag-är-textbox {
   font-size: 20px;
   margin-right: 200px;
   margin-left: 200px;
-  color: #ffffffc0;
+  color: #062935;
 }
 #jag-är {
   border-style: dotted;
@@ -64,11 +65,13 @@ nav li a:hover {
   display: flex;
   justify-content: center;
   font-size: 25px;
+  color: #ffffff;
 }
 .content-title {
   display: flex;
   justify-content: center;
   font-size: 20px;
+  color: #ffffffcc;
 }
 .contentAndimage {
   display: flex;
@@ -84,7 +87,183 @@ nav li a:hover {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+#chara a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#alm {
+  transition: all 0.5s ease 0s;
+}
+#almtext {
+  position: absolute;
+  top: 4750px;
+  bottom: 0px;
+  left: 380px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#almcontainer:hover #almtext {
+  opacity: 1;
+}
+#almcontainer:hover #alm {
+  opacity: 0.4;
+}
+
+#ougi {
+  transition: all 0.5s ease 0s;
+}
+#ougitext {
+  position: absolute;
+  top: 5100px;
+  bottom: 0px;
+  left: 380px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#ougicontainer:hover #ougitext {
+  opacity: 1;
+}
+#ougicontainer:hover #ougi {
+  opacity: 0.4;
+}
+
+#makima {
+  transition: all 0.5s ease 0s;
+}
+#makimatext {
+  position: absolute;
+  top: 5450px;
+  bottom: 0px;
+  left: 355px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#makimacontainer:hover #makimatext {
+  opacity: 1;
+}
+#makimacontainer:hover #makima {
+  opacity: 0.4;
+}
+#ace {
+  transition: all 0.5s ease 0s;
+}
+
+#acetext {
+  position: absolute;
+  top: 4750px;
+  bottom: 0px;
+  left: 605px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#acecontainer:hover #acetext {
+  opacity: 1;
+}
+#acecontainer:hover #ace {
+  opacity: 0.4;
+}
+
+#luffy {
+  transition: all 0.5s ease 0s;
+}
+#luffytext {
+  position: absolute;
+  top: 5100px;
+  bottom: 0px;
+  left: 605px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#luffycontainer:hover #luffytext {
+  opacity: 1;
+}
+#luffycontainer:hover #luffy {
+  opacity: 0.4;
+}
+#oreki {
+  transition: all 0.5s ease 0s;
+}
+#orekitext {
+  position: absolute;
+  top: 5450px;
+  bottom: 0px;
+  left: 605px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#orekicontainer:hover #orekitext {
+  opacity: 1;
+}
+#orekicontainer:hover #oreki {
+  opacity: 0.4;
+}
+#asuka {
+  transition: all 0.5s ease 0s;
+}
+#asukatext {
+  position: absolute;
+  top: 4750px;
+  bottom: 0px;
+  left: 830px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#asukacontainer:hover #asukatext {
+  opacity: 1;
+}
+#asukacontainer:hover #asuka {
+  opacity: 0.4;
+}
+#kyoko {
+  transition: all 0.5s ease 0s;
+}
+#kyokotext {
+  position: absolute;
+  top: 5100px;
+  bottom: 0px;
+  left: 830px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#kyokocontainer:hover #kyokotext {
+  opacity: 1;
+}
+#kyokocontainer:hover #kyoko {
+  opacity: 0.4;
+}
+
+#kiryu {
+  transition: all 0.5s ease 0s;
+}
+#kiryutext {
+  position: absolute;
+  top: 5450px;
+  bottom: 0px;
+  left: 830px;
+  right: 0;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+}
+#kiryucontainer:hover #kiryutext {
+  opacity: 1;
+}
+#kiryucontainer:hover #kiryu {
+  opacity: 0.4;
 }
 
 footer {
