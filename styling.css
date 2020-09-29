@@ -103,6 +103,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #almtext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 4750px;
   bottom: 0px;
@@ -122,6 +123,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #ougitext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 5100px;
   bottom: 0px;
@@ -141,6 +143,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #makimatext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 5450px;
   bottom: 0px;
@@ -160,6 +163,7 @@ nav li a:hover {
 }
 
 #acetext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 4750px;
   bottom: 0px;
@@ -179,6 +183,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #luffytext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 5100px;
   bottom: 0px;
@@ -197,6 +202,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #orekitext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 5450px;
   bottom: 0px;
@@ -215,6 +221,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #asukatext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 4750px;
   bottom: 0px;
@@ -233,6 +240,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #kyokotext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 5100px;
   bottom: 0px;
@@ -252,6 +260,7 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 #kiryutext {
+  transition: all 0.5s ease 0s;
   position: absolute;
   top: 5450px;
   bottom: 0px;
