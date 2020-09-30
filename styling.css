@@ -21,12 +21,12 @@ nav li a {
   text-decoration: none;
   color: white;
   padding: 16px;
-  transition: all 0.5s ease 0s;
 }
 
 nav li a:hover {
   background-color: rgb(34, 46, 49);
-  text-decoration: underline;
+  border-bottom: solid;
+  border-color: rgba(66, 165, 245);
 }
 .top-bar {
   display: flex;
@@ -38,10 +38,15 @@ nav li a:hover {
   margin-right: 200px;
   margin-left: 200px;
   color: #eeeeeecb;
-  border-radius: 10px;
-  padding: 5%;
+  border-radius: 2px;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 25px;
   background-color: rgb(34, 36, 49);
   font-size: 18px;
+  -webkit-box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
+  -moz-box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
+  box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
 }
 #jag-är-title {
   display: flex;
@@ -53,19 +58,21 @@ nav li a:hover {
   font-size: 20px;
   margin: 200px;
   margin-top: 50px;
-  padding-bottom: 10px;
-  margin-bottom: 150px;
+  padding-bottom: 25px;
   color: #eeeded;
 }
 #jag-är {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgb(39, 41, 55);
   margin: 30px;
+  -webkit-box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
+  -moz-box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
+  box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
 }
 .topic-title {
   display: flex;
   justify-content: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #ffffff;
 }
 .content-title {
@@ -79,55 +86,38 @@ nav li a:hover {
   display: flex;
 }
 .contentAndimage p {
-  border-style: dashed;
-  border-color: #5c332c;
   margin-right: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(29, 31, 41);
 }
 #banner {
   width: 100%;
+}
+#chara {
+  background-color: rgb(34, 36, 49);
+  border-radius: 5px;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  -webkit-box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
+  -moz-box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
+  box-shadow: -10px 10px 3px -11px rgba(0, 0, 0, 0.95);
 }
 .grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-color: rgb(34, 36, 49);
-  border-radius: 10px;
-  padding: 50px;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 #copyright {
   padding: 40px;
   background-color: rgb(34, 46, 49);
   color: #eeeded;
 }
-.source {
-  font-style: italic;
-  font-size: 8px;
-}
-/*//////////////////////////////////////////////////////////////////////////*/
-
-#chara a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-}
 
 #alm {
   transition: all 0.5s ease 0s;
-}
-#almtext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1150%;
-  bottom: 0px;
-  left: 380px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#almcontainer:hover #almtext {
-  opacity: 1;
 }
 #almcontainer:hover #alm {
   opacity: 0.4;
@@ -136,19 +126,7 @@ nav li a:hover {
 #ougi {
   transition: all 0.5s ease 0s;
 }
-#ougitext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1210%;
-  bottom: 0px;
-  left: 380px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#ougicontainer:hover #ougitext {
-  opacity: 1;
-}
+
 #ougicontainer:hover #ougi {
   opacity: 0.4;
 }
@@ -156,19 +134,7 @@ nav li a:hover {
 #makima {
   transition: all 0.5s ease 0s;
 }
-#makimatext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1270%;
-  bottom: 0px;
-  left: 365px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#makimacontainer:hover #makimatext {
-  opacity: 1;
-}
+
 #makimacontainer:hover #makima {
   opacity: 0.4;
 }
@@ -176,19 +142,6 @@ nav li a:hover {
   transition: all 0.5s ease 0s;
 }
 
-#acetext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1150%;
-  bottom: 0px;
-  left: 605px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#acecontainer:hover #acetext {
-  opacity: 1;
-}
 #acecontainer:hover #ace {
   opacity: 0.4;
 }
@@ -196,76 +149,28 @@ nav li a:hover {
 #luffy {
   transition: all 0.5s ease 0s;
 }
-#luffytext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1210%;
-  bottom: 0px;
-  left: 605px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#luffycontainer:hover #luffytext {
-  opacity: 1;
-}
+
 #luffycontainer:hover #luffy {
   opacity: 0.4;
 }
 #oreki {
   transition: all 0.5s ease 0s;
 }
-#orekitext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1270%;
-  bottom: 0px;
-  left: 605px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#orekicontainer:hover #orekitext {
-  opacity: 1;
-}
+
 #orekicontainer:hover #oreki {
   opacity: 0.4;
 }
 #asuka {
   transition: all 0.5s ease 0s;
 }
-#asukatext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-  opacity: 1;
-}
-#asukacontainer:hover #asukatext {
-  opacity: 1;
-}
+
 #asukacontainer:hover #asuka {
   opacity: 0.4;
 }
 #reigen {
   transition: all 0.5s ease 0s;
 }
-#reigentext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1210%;
-  bottom: 0px;
-  left: 830px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#reigencontainer:hover #reigentext {
-  opacity: 1;
-}
+
 #reigencontainer:hover #reigen {
   opacity: 0.4;
 }
@@ -273,22 +178,11 @@ nav li a:hover {
 #kiryu {
   transition: all 0.5s ease 0s;
 }
-#kiryutext {
-  transition: all 0.5s ease 0s;
-  position: absolute;
-  top: 1270%;
-  left: 830px;
-  right: 0;
-  color: rgb(255, 255, 255);
-  opacity: 0;
-}
-#kiryucontainer:hover #kiryutext {
-  opacity: 1;
-}
+
 #kiryucontainer:hover #kiryu {
   opacity: 0.4;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1000px) {
   #title {
     width: 30%;
     font-size: 20px;
@@ -310,30 +204,51 @@ nav li a:hover {
     min-width: 60%;
     font-size: 10px;
   }
-  .contentAndimage img {
-    max-width: 250px;
+  #chara {
+    padding-bottom: 10px;
+    padding-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
   }
-  .contentAndimage p {
-    max-width: 60%;
+  #chara img {
+    max-width: 100%;
+  }
+  .contentAndimage {
+    margin-right: 1%;
+    margin-left: 1%;
+    font-size: 13px;
+  }
+  .textbox {
+    padding: 5px;
   }
 
-  #chara img {
+  .row img {
     max-width: 100%;
   }
   .row {
     display: flex;
     justify-content: space-evenly;
-    padding-left: 5%;
-    padding-right: 5%;
+  }
+  .grid {
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
-@media only screen and (max-width: 500px) {
-  .contentAndimage img {
-    max-width: 150px;
+@media only screen and (max-width: 700px) {
+  .textbox {
+    margin-right: 5px;
+    margin-left: 5px;
   }
-}
-@media only screen and (min-width: 1300px) {
+  .contentAndimage p {
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 11px;
+  }
   .contentAndimage img {
-    max-width: 150px;
+    height: auto;
+    max-width: 200px;
   }
 }
