@@ -123,6 +123,9 @@ nav li a:hover {
 .title a {
   color: white;
 }
+#Lorem {
+  padding-bottom: 50px;
+}
 
 #alm {
   transition: all 0.5s ease 0s;
@@ -199,8 +202,8 @@ nav li a:hover {
     padding: 2px;
   }
   .textbox {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 5px;
+    margin-left: 5px;
     font-size: 11px;
   }
   #jag-är-textbox {
