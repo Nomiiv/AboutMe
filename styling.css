@@ -6,10 +6,9 @@ html {
   scroll-behavior: smooth;
 }
 
-#title {
+.title {
   margin: 0px;
-  padding: 8px;
-  color: white;
+  padding: 0px;
   max-width: 100%;
 }
 
@@ -31,7 +30,6 @@ nav li a:hover {
 .top-bar {
   display: flex;
   align-items: center;
-  padding: 0px;
 }
 
 .textbox {
@@ -110,10 +108,20 @@ nav li a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+#contactnav {
+  padding-left: 100px;
+  text-decoration: underline;
+}
+.contact-link {
+  color: white;
+}
 #copyright {
   padding: 40px;
   background-color: rgb(34, 46, 49);
   color: #eeeded;
+}
+.title a {
+  color: white;
 }
 
 #alm {
@@ -183,7 +191,7 @@ nav li a:hover {
   opacity: 0.4;
 }
 @media only screen and (max-width: 1000px) {
-  #title {
+  .title {
     width: 30%;
     font-size: 20px;
   }
@@ -249,6 +257,9 @@ nav li a:hover {
   }
   .contentAndimage img {
     height: auto;
-    max-width: 200px;
+    max-width: 190px;
+  }
+  .content-title {
+    font-size: 20px;
   }
 }
